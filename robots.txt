@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p-c652393204.yhyhd.cn/sitemap.xml

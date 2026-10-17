@@ -1,0 +1,296 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ikun — 网络中继服务说明书</title><meta name="description" content="ikun 提供按月计费的网络中继服务。本页面以说明书形式记录套餐规格、设备支持范围与常见问题，供订阅者在开通前查阅。"><meta name="keywords" content="ikun,网络中继,专线服务,流量套餐,流媒体访问"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-c652393204.yhyhd.cn/"><meta property="og:type" content="website"><meta property="og:title" content="ikun — 网络中继服务说明书"><meta property="og:description" content="ikun 提供按月计费的网络中继服务。本页面以说明书形式记录套餐规格、设备支持范围与常见问题，供订阅者在开通前查阅。"><meta property="og:url" content="https://p-c652393204.yhyhd.cn/"><meta property="og:site_name" content="ikun"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-c652393204.yhyhd.cn/", "name": "ikun — 网络中继服务说明书", "description": "ikun 提供按月计费的网络中继服务。本页面以说明书形式记录套餐规格、设备支持范围与常见问题，供订阅者在开通前查阅。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="ffe1f6f089c539b383c4a146:51201a7f24e327daa7ab8a073a2b50568bac4f1dba215cb3f87bb9849906caca:e77f010a42c5b9f96b7c"></head><body id="top"><style>
+:root{--brown-900:#241a13;--brown-700:#3d2c20;--brown-500:#5a4334;--brown-300:#8a6f5b;--paper:#f3ece3;--paper-warm:#e9ddca;--mint:#7fd3b8;--mint-deep:#3aa784;--ink:#1c140f;--rule:rgba(28,20,15,0.14)}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:ui-serif,Georgia,"Times New Roman",serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--brown-700);text-decoration:underline;text-underline-offset:3px}
+a:hover{color:var(--mint-deep)}
+
+/* 顶部细横条导航 */
+.site-nav{border-bottom:1px solid var(--rule);background:var(--paper)}
+.site-nav-inner{max-width:1120px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand-mark{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:0.08em;font-size:14px;color:var(--brown-900)}
+.brand-mark strong{font-weight:700}
+.site-nav-links{display:flex;gap:22px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}
+.site-nav-links a{color:var(--brown-700);text-decoration:none}
+.site-nav-links a:hover{color:var(--mint-deep)}
+.site-nav-meta{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;color:var(--brown-500)}
+
+/* 杂志式多栏网格首屏 */
+.hero{max-width:1120px;margin:0 auto;padding:56px 28px 72px;display:grid;grid-template-columns:repeat(12,1fr);gap:32px;border-bottom:1px solid var(--rule)}
+.hero-eyebrow{grid-column:1 / span 12;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:var(--brown-500);display:flex;justify-content:space-between;padding-bottom:18px;border-bottom:1px solid var(--rule)}
+.hero-title{grid-column:1 / span 8;margin:0;font-size:clamp(40px,6vw,76px);line-height:1.02;letter-spacing:-0.02em;color:var(--brown-900);font-weight:700}
+.hero-title em{font-style:italic;color:var(--mint-deep)}
+.hero-lede{grid-column:1 / span 6;margin-top:8px;font-size:18px;color:var(--brown-700);max-width:46ch}
+.hero-aside{grid-column:9 / span 4;border-left:1px solid var(--rule);padding-left:24px;margin-top:8px}
+.hero-aside h3{margin:0 0 12px;font-size:13px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:0.12em;text-transform:uppercase;color:var(--brown-500)}
+.hero-aside p{margin:0 0 14px;font-size:14px;color:var(--brown-700)}
+.hero-pullquote{grid-column:1 / span 12;margin-top:16px;padding:28px 0 0;border-top:1px solid var(--rule);display:grid;grid-template-columns:repeat(12,1fr);gap:32px}
+.hero-pullquote blockquote{grid-column:2 / span 9;margin:0;font-size:22px;font-style:italic;color:var(--brown-900);line-height:1.45}
+.hero-pullquote cite{display:block;margin-top:10px;font-style:normal;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;letter-spacing:0.1em;color:var(--brown-500)}
+
+/* 通用区块 */
+.section{max-width:1120px;margin:0 auto;padding:64px 28px;border-bottom:1px solid var(--rule)}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px;margin-bottom:36px}
+.section-head h2{margin:0;font-size:30px;letter-spacing:-0.01em;color:var(--brown-900)}
+.section-head span{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;color:var(--brown-500);letter-spacing:0.1em}
+
+/* 产品说明：无边框留白分隔 */
+.manual{display:grid;grid-template-columns:repeat(12,1fr);gap:32px}
+.manual-item{grid-column:span 6;padding:24px 0}
+.manual-item:nth-child(odd){grid-column:1 / span 6}
+.manual-item:nth-child(even){grid-column:7 / span 6}
+.manual-item h3{margin:0 0 10px;font-size:16px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--mint-deep);letter-spacing:0.08em;text-transform:uppercase}
+.manual-item p{margin:0;font-size:15px;color:var(--brown-700)}
+
+/* 套餐：单列大卡堆叠 */
+.plans{display:flex;flex-direction:column;gap:28px}
+.plan{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;background:var(--paper-warm);padding:32px 32px}
+.plan.featured{background:var(--brown-900);color:var(--paper)}
+.plan.featured .plan-name,
+.plan.featured .plan-price,
+.plan.featured .plan-annual,
+.plan.featured .plan-features li{color:var(--paper)}
+.plan.featured .plan-tag{background:var(--mint);color:var(--brown-900)}
+.plan-head{grid-column:1 / span 5}
+.plan-tag{display:inline-block;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;padding:4px 10px;background:transparent;border:1px solid var(--brown-300);color:var(--brown-500);margin-bottom:14px}
+.plan-name{margin:0 0 8px;font-size:26px;color:var(--brown-900)}
+.plan-price{margin:0;font-size:34px;color:var(--brown-900);font-weight:700}
+.plan-annual{margin:6px 0 0;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;color:var(--brown-500)}
+.plan-body{grid-column:7 / span 6}
+.plan-features{list-style:none;margin:0;padding:0}
+.plan-features li{padding:8px 0;border-bottom:1px solid var(--rule);font-size:14px;color:var(--brown-700)}
+.plan-features li:last-child{border-bottom:none}
+
+/* 客户端与使用说明 */
+.clients{display:grid;grid-template-columns:repeat(12,1fr);gap:32px}
+.clients-intro{grid-column:1 / span 4;font-size:15px;color:var(--brown-700)}
+.clients-steps{grid-column:5 / span 8}
+.clients-steps ol{counter-reset:step;list-style:none;margin:0;padding:0}
+.clients-steps li{counter-increment:step;padding:18px 0;border-bottom:1px solid var(--rule);display:grid;grid-template-columns:48px 1fr;gap:16px}
+.clients-steps li:last-child{border-bottom:none}
+.clients-steps li::before{content:counter(step,decimal-leading-zero);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;color:var(--mint-deep)}
+.clients-steps li p{margin:0;font-size:15px;color:var(--brown-700)}
+
+/* FAQ */
+.faq{display:flex;flex-direction:column;gap:0}
+.faq details{border-bottom:1px solid var(--rule);padding:20px 0}
+.faq details summary{cursor:pointer;font-size:17px;color:var(--brown-900);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.faq details summary::-webkit-details-marker{display:none}
+.faq details summary::after{content:"+";font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--mint-deep)}
+.faq details[open] summary::after{content:"–"}
+.faq details p{margin:14px 0 0;font-size:14px;color:var(--brown-700);max-width:72ch}
+
+/* 页脚 */
+.site-foot{max-width:1120px;margin:0 auto;padding:40px 28px 64px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;color:var(--brown-500);display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+
+@media (max-width:720px){
+  .hero,.section,.manual,.clients,.plans,.site-foot{padding-left:20px;padding-right:20px}
+  .hero-eyebrow,.hero-title,.hero-lede,.hero-aside,.hero-pullquote blockquote,.manual-item,.plan-head,.plan-body,.clients-intro,.clients-steps{grid-column:1 / -1}
+  .plan{padding:24px}
+  .site-nav-links{gap:14px}
+}
+</style><nav class="site-nav" aria-label="主导航">
+  <div class="site-nav-inner">
+    <div class="brand-mark"><strong>ikun</strong> / 网络中继</div>
+    <div class="site-nav-links">
+      <a href="#manual">说明</a>
+      <a href="#plans">套餐</a>
+      <a href="#clients">客户端</a>
+      <a href="#faq">常见问题</a>
+    </div>
+    <div class="site-nav-meta">文档编号 0618</div>
+  </div>
+</nav>
+
+<main>
+
+<header class="hero">
+  <div class="hero-eyebrow">
+    <span>ikun · 订阅说明书</span>
+    <span>第 06 期 / 修订 18</span>
+  </div>
+  <h1 class="hero-title">ikun：一份关于<em>跨境数据中继</em>的订阅说明</h1>
+  <p class="hero-lede">本文档面向已具备基础网络知识的成年订阅者。ikun 以月度为周期提供中继流量，按设备数与带宽分级定价。所有条款以本页说明为准，购买即视为已阅读。</p>
+  <aside class="hero-aside">
+    <h3>阅读须知</h3>
+    <p>本服务仅提供网络数据转发，不托管、不审计、不修改用户传输内容。</p>
+    <p>订阅前请确认所在地区法律是否允许使用此类中继服务。</p>
+    <p>套餐价格、流量配额与节点池可能随运维周期调整，以支付页实时显示为准。</p>
+  </aside>
+  <div class="hero-pullquote">
+    <blockquote>
+      “中继服务的价值不在速度本身，而在于它在固定周期内能否被预测、被计量、被关闭。”
+      —— ikun 运维备忘
+    </blockquote>
+  </div>
+</header>
+
+<section class="section" id="manual">
+  <div class="section-head">
+    <h2>产品说明</h2>
+    <span>SECTION 02</span>
+  </div>
+  <div class="manual">
+    <article class="manual-item">
+      <h3>服务定义</h3>
+      <p>ikun 是一种按月计费的网络中继订阅。订阅者通过客户端将指定设备的中继流量引导至 ikun 节点池，由节点完成跨境转发并返回响应。</p>
+    </article>
+    <article class="manual-item">
+      <h3>计费周期</h3>
+      <p>默认以自然月为计费周期，自订阅成功时刻起算。按年订阅以 365 天为周期，到期自动终止，不自动续费。</p>
+    </article>
+    <article class="manual-item">
+      <h3>设备计数</h3>
+      <p>“设备同时在线”指同一订阅凭证在同一时刻发起中继请求的独立设备数量。超出限额后，新设备无法完成握手，已连接设备不受影响。</p>
+    </article>
+    <article class="manual-item">
+      <h3>流量单位</h3>
+      <p>套餐内“GB”指双向累计传输字节，包含上行与下行。流量于计费周期起始时刻清零，未使用部分不结转。</p>
+    </article>
+    <article class="manual-item">
+      <h3>节点策略</h3>
+      <p>基础版与旗舰版共享公共节点池，按负载动态分配；团队版提供固定带宽入口，路由规则可在管理面板内自定义。</p>
+    </article>
+    <article class="manual-item">
+      <h3>使用边界</h3>
+      <p>本服务不得用于发送未授权商业邮件、对第三方系统发起扫描或压测、传播违反所在地区法律的内容。违规账户将被暂停且不退款。</p>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="plans">
+  <div class="section-head">
+    <h2>订阅套餐</h2>
+    <span>SECTION 03</span>
+  </div>
+  <div class="plans">
+
+    <article class="plan">
+      <div class="plan-head">
+        <span class="plan-tag">入门</span>
+        <h3 class="plan-name">基础版</h3>
+        <p class="plan-price">¥15/月</p>
+        <p class="plan-annual">按年付仅需 ¥150/年</p>
+      </div>
+      <div class="plan-body">
+        <ul class="plan-features">
+          <li>每月 100GB 中继流量，周期起始清零</li>
+          <li>支持 3 台设备同时在线，超出握手失败</li>
+          <li>公共节点池，按负载分配</li>
+          <li>适配常见网页与标清流媒体访问</li>
+          <li>邮件工单响应，工作日内回复</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="plan featured">
+      <div class="plan-head">
+        <span class="plan-tag">推荐</span>
+        <h3 class="plan-name">旗舰版</h3>
+        <p class="plan-price">¥35/月</p>
+        <p class="plan-annual">按年付仅需 ¥350/年</p>
+      </div>
+      <div class="plan-body">
+        <ul class="plan-features">
+          <li>每月 300GB 中继流量，覆盖高码率视频与下载</li>
+          <li>支持 5 台设备同时在线</li>
+          <li>全节点原生出口，适配主流流媒体地区库</li>
+          <li>IPLC 专线入口，面向低延迟游戏会话优化</li>
+          <li>7x24 优先工单通道，平均响应 2 小时内</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="plan">
+      <div class="plan-head">
+        <span class="plan-tag">多人</span>
+        <h3 class="plan-name">团队版</h3>
+        <p class="plan-price">¥85/月</p>
+        <p class="plan-annual">按年付仅需 ¥850/年</p>
+      </div>
+      <div class="plan-body">
+        <ul class="plan-features">
+          <li>每月 1000GB 中继流量，支持子账号拆分</li>
+          <li>支持 20 台设备同时在线</li>
+          <li>VIP 专属高带宽节点入口</li>
+          <li>管理面板可配置企业定制路由规则</li>
+          <li>专属客户经理，提供季度使用复盘</li>
+        </ul>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="section" id="clients">
+  <div class="section-head">
+    <h2>客户端与使用流程</h2>
+    <span>SECTION 04</span>
+  </div>
+  <div class="clients">
+    <p class="clients-intro">ikun 不绑定专用客户端。订阅凭证兼容主流中继协议，可在 Windows、macOS、Linux、Android、iOS 的通用客户端中使用。以下为首次配置的推荐顺序。</p>
+    <div class="clients-steps">
+      <ol>
+        <li><p>在支付成功页复制订阅凭证地址，凭证以 https 开头，长度通常为 48 字符。</p></li>
+        <li><p>在设备上安装支持通用中继协议的客户端，ikun 不提供官方下载入口，请从各客户端官网获取。</p></li>
+        <li><p>打开客户端，选择“导入订阅”或“从剪贴板添加”，粘贴凭证地址。</p></li>
+        <li><p>等待客户端完成节点列表拉取，首次拉取通常需要 5 至 15 秒。</p></li>
+        <li><p>选择目标地区节点，开启中继开关。建议先访问测试页确认出口地址已变更。</p></li>
+        <li><p>如需切换设备，请先在原设备关闭中继，再在新设备导入同一凭证，避免触发同时在线限制。</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="section-head">
+    <h2>常见问题</h2>
+    <span>SECTION 05</span>
+  </div>
+  <div class="faq">
+
+    <details>
+      <summary>套餐流量用尽后会怎样？</summary>
+      <p>流量用尽后，中继连接将被节点侧主动断开，客户端显示认证失败但不会删除凭证。订阅者可在管理面板按 10GB 为单位追加临时流量包，或等待下一计费周期自动恢复配额。</p>
+    </details>
+
+    <details>
+      <summary>可以申请退款吗？</summary>
+      <p>本服务按订阅周期预付，开通后即占用节点资源与凭证配额，原则上不支持无理由退款。如因节点池区域性故障导致连续 72 小时不可用，可申请按比例延长订阅周期作为补偿。</p>
+    </details>
+
+    <details>
+      <summary>同时在线设备数如何计算？</summary>
+      <p>同一凭证在同一时刻存在活跃中继会话的独立 IP 设备数即为在线数。手机与电脑同时开启计为 2 台；同一设备多客户端并行不计为多台，但可能触发协议层冲突。</p>
+    </details>
+
+    <details>
+      <summary>支持哪些中继协议？</summary>
+      <p>订阅凭证默认兼容通用中继协议族，包括基于 TCP 与 WebSocket 的转发协议。具体协议名称不在本说明书列出，以支付页与凭证下发页的实时说明为准。</p>
+    </details>
+
+    <details>
+      <summary>节点速度为什么不稳定？</summary>
+      <p>中继速度受本地运营商出口、跨境线路质量、目标站点限速三重因素影响。基础版使用公共节点池，高峰时段可能出现排队；旗舰版与团队版提供专线入口，波动范围更小但仍无法承诺恒定带宽。</p>
+    </details>
+
+    <details>
+      <summary>团队版可以给不同成员设置不同配额吗？</summary>
+      <p>团队版支持在管理面板创建最多 8 个子账号，并为每个子账号单独设定月度流量上限。超出上限的子账号将被单独暂停，不影响主账号与其他子账号使用。</p>
+    </details>
+
+    <details>
+      <summary>订阅到期后会保留账号吗？</summary>
+      <p>订阅到期后凭证将被停用，但账号邮箱与管理面板记录保留 180 天。在此期间续费可恢复原套餐与历史流量统计；超过 180 天未续费，账号数据将被清除且不可恢复。</p>
+    </details>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-foot">
+  <div>© ikun 运维组 · 本页面为订阅前阅读文档</div>
+  <div>凭证以下发页为准 · 不自动续费</div>
+</footer><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
